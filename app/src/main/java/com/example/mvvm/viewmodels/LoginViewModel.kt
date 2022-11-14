@@ -5,10 +5,9 @@ import android.text.TextUtils
 import android.util.Patterns
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import androidx.databinding.library.baseAdapters.BR
 import com.example.mvvm.model.User
 
-
+//ruslan chamges
 class LoginViewModel : BaseObservable() {
     private val user: User
     private val successMessage = "Login was successful"
